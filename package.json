@@ -1,0 +1,26 @@
+{
+  "name": "clutch-co-scraper",
+  "version": "1.0.0",
+  "description": "Scrape and collect structured business data from Clutch.co — company profiles, focus areas, reviews, and portfolios.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "clutch",
+    "scraper",
+    "web-scraping",
+    "automation",
+    "bitbash"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
